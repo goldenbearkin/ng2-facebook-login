@@ -12,7 +12,5 @@ import { FacebookLoginService } from './facebook-login.service'
   providers: [FacebookLoginService]
 })
 export class AppComponent {
-  constructor(private facebookLogin: FacebookLoginService) {
-    
-  }
+  constructor(private facebookLogin: FacebookLoginService) {}
 }
